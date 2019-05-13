@@ -1,0 +1,169 @@
+#include <stdio.h>
+
+int main() {
+int mes,dia;
+printf("Escribe el numero del mes en que naciste: ");
+scanf("%d",&mes);
+
+if (mes==1)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>19)
+    {
+        printf("Eres Acuario");
+    }
+    else printf("Eres Capricornio");
+    
+}
+
+if (mes==2)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>19)
+    {
+        printf("Eres Piscis");
+    }
+    else
+    {
+        printf("Eres Acuario");
+    }
+}
+
+if (mes==3)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>20)
+    {
+        printf("Eres Aries");
+    }
+    else
+    {
+        printf("Eres Piscis");
+    }
+}
+
+if (mes==4)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>20)
+    {
+        printf("Eres tauro");
+    }
+    else
+    {
+        printf("Eres Aries");
+    }
+}
+
+if (mes==5)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>20)
+    {
+        printf("Eres geminis");
+    }
+    else
+    {
+        printf("Eres Tauro");
+    }
+}
+if (mes==6)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>21)
+    {
+        printf("Eres Cancer");
+    }
+    else
+    {
+        printf("Eres Geminis");
+    }
+}
+if (mes==7)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>22)
+    {
+        printf("Eres Leo");
+    }
+    else printf("Eres Cancer");
+    
+}
+
+if (mes==8)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>23)
+    {
+        printf("Eres Virgo");
+    }
+    else
+    {
+        printf("Eres Leo");
+    }
+}
+
+if (mes==9)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>23)
+    {
+        printf("Eres Libra");
+    }
+    else
+    {
+        printf("Eres Virgo");
+    }
+}
+
+if (mes==10)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>17)
+    {
+        printf("Eres Escorpio");
+    }
+    else
+    {
+        printf("Eres Libra");
+    }
+}
+
+if (mes==11)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>25)
+    {
+        printf("Eres Sagitario");
+    }
+    else
+    {
+        printf("Eres Escorpio");
+    }
+}
+if (mes==12)
+{
+    printf("Indica en que dia naciste: ");
+    scanf("%d", &dia);
+    if (dia>21)
+    {
+        printf("Eres Capricornio");
+    }
+    else
+    {
+        printf("Eres Sagitario");
+    }
+}
+
+return 0;}
